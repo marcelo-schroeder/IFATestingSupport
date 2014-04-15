@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/.idea">
+      <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/IFATestingSupport">
+      <sourceFolder url="file://$MODULE_DIR$/IFATestingSupport" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/IFATestingSupport.xcworkspace">
+      <sourceFolder url="file://$MODULE_DIR$/IFATestingSupport.xcworkspace" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/IFATestingSupport/IFATestingSupport.xcodeproj">
+      <sourceFolder url="file://$MODULE_DIR$/IFATestingSupport/IFATestingSupport.xcodeproj" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/Podfile">
+      <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/Pods">
+      <sourceFolder url="file://$MODULE_DIR$/Pods" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+
