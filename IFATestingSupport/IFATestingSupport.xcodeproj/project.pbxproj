@@ -123,9 +123,7 @@
 		F791AC1618FDD42500957B6F /* IFATestingSupport */ = {
 			isa = PBXGroup;
 			children = (
-				F791AC3A18FDDD3E00957B6F /* IFACommonTests.h */,
-				F791AC3B18FDDD3E00957B6F /* XCTestCase+IFACategory.h */,
-				F791AC3C18FDDD3E00957B6F /* XCTestCase+IFACategory.m */,
+				F791AC4618FDEBD500957B6F /* classes */,
 				F791AC1718FDD42500957B6F /* Supporting Files */,
 			);
 			path = IFATestingSupport;
@@ -155,6 +153,16 @@
 				F791AC2D18FDD42500957B6F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F791AC4618FDEBD500957B6F /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				F791AC3A18FDDD3E00957B6F /* IFACommonTests.h */,
+				F791AC3B18FDDD3E00957B6F /* XCTestCase+IFACategory.h */,
+				F791AC3C18FDDD3E00957B6F /* XCTestCase+IFACategory.m */,
+			);
+			name = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

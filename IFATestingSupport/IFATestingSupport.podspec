@@ -28,11 +28,11 @@ Pod::Spec.new do |s|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source_files  = "IFATestingSupport/classes/**/*.{h,m}"
+  s.source_files  = "IFATestingSupport/**/*.{h,m}"
 
-  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.resource  = "IFATestingSupport/resources/**/*.*"
+  s.frameworks = "XCTest"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
