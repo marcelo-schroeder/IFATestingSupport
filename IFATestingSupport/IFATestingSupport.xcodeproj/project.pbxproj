@@ -15,7 +15,7 @@
 		F791AC2918FDD42500957B6F /* libIFATestingSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F791AC1118FDD42500957B6F /* libIFATestingSupport.a */; };
 		F791AC2F18FDD42500957B6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F791AC2D18FDD42500957B6F /* InfoPlist.strings */; };
 		F791AC3118FDD42500957B6F /* IFATestingSupportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F791AC3018FDD42500957B6F /* IFATestingSupportTests.m */; };
-		F791AC3D18FDDD3E00957B6F /* XCTestCase+IACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F791AC3C18FDDD3E00957B6F /* XCTestCase+IACategory.m */; };
+		F791AC3D18FDDD3E00957B6F /* XCTestCase+IFACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F791AC3C18FDDD3E00957B6F /* XCTestCase+IFACategory.m */; };
 		F791AC3E18FDDD9500957B6F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F791AC2218FDD42500957B6F /* XCTest.framework */; };
 		F791AC4018FDDE3F00957B6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F791AC3F18FDDE3F00957B6F /* UIKit.framework */; };
 /* End PBXBuildFile section */
@@ -54,9 +54,9 @@
 		F791AC2C18FDD42500957B6F /* IFATestingSupportTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IFATestingSupportTests-Info.plist"; sourceTree = "<group>"; };
 		F791AC2E18FDD42500957B6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F791AC3018FDD42500957B6F /* IFATestingSupportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IFATestingSupportTests.m; sourceTree = "<group>"; };
-		F791AC3A18FDDD3E00957B6F /* IACommonTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IACommonTests.h; sourceTree = "<group>"; };
-		F791AC3B18FDDD3E00957B6F /* XCTestCase+IACategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+IACategory.h"; sourceTree = "<group>"; };
-		F791AC3C18FDDD3E00957B6F /* XCTestCase+IACategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+IACategory.m"; sourceTree = "<group>"; };
+		F791AC3A18FDDD3E00957B6F /* IFACommonTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFACommonTests.h; sourceTree = "<group>"; };
+		F791AC3B18FDDD3E00957B6F /* XCTestCase+IFACategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+IFACategory.h"; sourceTree = "<group>"; };
+		F791AC3C18FDDD3E00957B6F /* XCTestCase+IFACategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+IFACategory.m"; sourceTree = "<group>"; };
 		F791AC3F18FDDE3F00957B6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F791AC4218FDE1BB00957B6F /* IFATestingSupport.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IFATestingSupport.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,9 +123,9 @@
 		F791AC1618FDD42500957B6F /* IFATestingSupport */ = {
 			isa = PBXGroup;
 			children = (
-				F791AC3A18FDDD3E00957B6F /* IACommonTests.h */,
-				F791AC3B18FDDD3E00957B6F /* XCTestCase+IACategory.h */,
-				F791AC3C18FDDD3E00957B6F /* XCTestCase+IACategory.m */,
+				F791AC3A18FDDD3E00957B6F /* IFACommonTests.h */,
+				F791AC3B18FDDD3E00957B6F /* XCTestCase+IFACategory.h */,
+				F791AC3C18FDDD3E00957B6F /* XCTestCase+IFACategory.m */,
 				F791AC1718FDD42500957B6F /* Supporting Files */,
 			);
 			path = IFATestingSupport;
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F791AC3D18FDDD3E00957B6F /* XCTestCase+IACategory.m in Sources */,
+				F791AC3D18FDDD3E00957B6F /* XCTestCase+IFACategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
