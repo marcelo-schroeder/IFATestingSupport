@@ -45,6 +45,7 @@
 /* Begin PBXFileReference section */
 		06D0EF6AD79D45988144C5CD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		BA9DCA2628B64CBA9C30ADB4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7446BD019085E38008345FA /* IFATestingSupport.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IFATestingSupport.podspec; path = ../IFATestingSupport.podspec; sourceTree = "<group>"; };
 		F791AC1118FDD42500957B6F /* libIFATestingSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIFATestingSupport.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F791AC1418FDD42500957B6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F791AC1818FDD42500957B6F /* IFATestingSupport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IFATestingSupport-Prefix.pch"; sourceTree = "<group>"; };
@@ -58,7 +59,6 @@
 		F791AC3B18FDDD3E00957B6F /* XCTestCase+IFACategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+IFACategory.h"; sourceTree = "<group>"; };
 		F791AC3C18FDDD3E00957B6F /* XCTestCase+IFACategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+IFACategory.m"; sourceTree = "<group>"; };
 		F791AC3F18FDDE3F00957B6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F791AC4218FDE1BB00957B6F /* IFATestingSupport.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IFATestingSupport.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 				F791AC2A18FDD42500957B6F /* IFATestingSupportTests */,
 				F791AC1318FDD42500957B6F /* Frameworks */,
 				F791AC1218FDD42500957B6F /* Products */,
-				F791AC4218FDE1BB00957B6F /* IFATestingSupport.podspec */,
+				F7446BD019085E38008345FA /* IFATestingSupport.podspec */,
 				06D0EF6AD79D45988144C5CD /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
