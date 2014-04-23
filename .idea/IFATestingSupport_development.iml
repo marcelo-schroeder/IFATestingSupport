@@ -7,6 +7,9 @@
     <content url="file://$MODULE_DIR$/IFATestingSupport">
       <sourceFolder url="file://$MODULE_DIR$/IFATestingSupport" isTestSource="false" />
     </content>
+    <content url="file://$MODULE_DIR$/IFATestingSupport.podspec">
+      <sourceFolder url="file://$MODULE_DIR$/IFATestingSupport.podspec" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$/IFATestingSupport.xcworkspace">
       <sourceFolder url="file://$MODULE_DIR$/IFATestingSupport.xcworkspace" isTestSource="false" />
     </content>
