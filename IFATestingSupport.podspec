@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
     s.version       = '0.1.0'
     s.summary       = 'Utilities to make unit testing with OCHamcrest and OCMock easier.'
     s.homepage      = 'https://bitbucket.org/marcelo_schroeder/ifatestingsupport'
-    s.license       = 'Apache-2.0'
+    s.license       = 'MIT'
     s.author        = { 'Marcelo Schroeder' => 'marcelo.schroeder@infoaccent.com' }
     s.platform      = :ios, '7.0'
     s.source        = { :git => 'https://bitbucket.org/marcelo_schroeder/ifatestingsupport.git', :tag => '0.1.0' }
