@@ -44,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		06D0EF6AD79D45988144C5CD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		107384545BE974CC34F6AAA5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		10738BEA819F99D8151508E3 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = ../LICENSE.txt; sourceTree = "<group>"; };
 		BA9DCA2628B64CBA9C30ADB4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7446BD019085E38008345FA /* IFATestingSupport.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IFATestingSupport.podspec; path = ../IFATestingSupport.podspec; sourceTree = "<group>"; };
 		F791AC1118FDD42500957B6F /* libIFATestingSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIFATestingSupport.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,7 +97,7 @@
 				F791AC1218FDD42500957B6F /* Products */,
 				F7446BD019085E38008345FA /* IFATestingSupport.podspec */,
 				06D0EF6AD79D45988144C5CD /* Pods.xcconfig */,
-				107384545BE974CC34F6AAA5 /* LICENSE */,
+				10738BEA819F99D8151508E3 /* LICENSE.txt */,
 			);
 			sourceTree = "<group>";
 		};
