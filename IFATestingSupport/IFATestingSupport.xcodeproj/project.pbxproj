@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10738730B1C3C0AAE9FCB7B2 /* OCMockRecorder+IFACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 107380C518C9589C14D9F1DF /* OCMockRecorder+IFACategory.m */; };
 		19870D3115014CFBB6A61E78 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9DCA2628B64CBA9C30ADB4 /* libPods.a */; };
 		F791AC1518FDD42500957B6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F791AC1418FDD42500957B6F /* Foundation.framework */; };
 		F791AC2318FDD42500957B6F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F791AC2218FDD42500957B6F /* XCTest.framework */; };
@@ -18,6 +19,7 @@
 		F791AC3D18FDDD3E00957B6F /* XCTestCase+IFACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F791AC3C18FDDD3E00957B6F /* XCTestCase+IFACategory.m */; };
 		F791AC3E18FDDD9500957B6F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F791AC2218FDD42500957B6F /* XCTest.framework */; };
 		F791AC4018FDDE3F00957B6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F791AC3F18FDDE3F00957B6F /* UIKit.framework */; };
+		F7C02151190F0DD60087FCD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C02150190F0DD60087FCD5 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +46,9 @@
 
 /* Begin PBXFileReference section */
 		06D0EF6AD79D45988144C5CD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		107380C518C9589C14D9F1DF /* OCMockRecorder+IFACategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMockRecorder+IFACategory.m"; sourceTree = "<group>"; };
 		10738D1892D6D101BC8C8FB9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		10738E79599442E5FDD84583 /* OCMockRecorder+IFACategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMockRecorder+IFACategory.h"; sourceTree = "<group>"; };
 		BA9DCA2628B64CBA9C30ADB4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7446BD019085E38008345FA /* IFATestingSupport.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IFATestingSupport.podspec; path = ../IFATestingSupport.podspec; sourceTree = "<group>"; };
 		F791AC1118FDD42500957B6F /* libIFATestingSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIFATestingSupport.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +64,7 @@
 		F791AC3B18FDDD3E00957B6F /* XCTestCase+IFACategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+IFACategory.h"; sourceTree = "<group>"; };
 		F791AC3C18FDDD3E00957B6F /* XCTestCase+IFACategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+IFACategory.m"; sourceTree = "<group>"; };
 		F791AC3F18FDDE3F00957B6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7C02150190F0DD60087FCD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7C02151190F0DD60087FCD5 /* CoreGraphics.framework in Frameworks */,
 				F791AC4018FDDE3F00957B6F /* UIKit.framework in Frameworks */,
 				F791AC3E18FDDD9500957B6F /* XCTest.framework in Frameworks */,
 				F791AC1518FDD42500957B6F /* Foundation.framework in Frameworks */,
@@ -113,6 +119,7 @@
 		F791AC1318FDD42500957B6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F7C02150190F0DD60087FCD5 /* CoreGraphics.framework */,
 				F791AC3F18FDDE3F00957B6F /* UIKit.framework */,
 				F791AC1418FDD42500957B6F /* Foundation.framework */,
 				F791AC2218FDD42500957B6F /* XCTest.framework */,
@@ -163,6 +170,8 @@
 				F791AC3A18FDDD3E00957B6F /* IFACommonTests.h */,
 				F791AC3B18FDDD3E00957B6F /* XCTestCase+IFACategory.h */,
 				F791AC3C18FDDD3E00957B6F /* XCTestCase+IFACategory.m */,
+				107380C518C9589C14D9F1DF /* OCMockRecorder+IFACategory.m */,
+				10738E79599442E5FDD84583 /* OCMockRecorder+IFACategory.h */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -285,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F791AC3D18FDDD3E00957B6F /* XCTestCase+IFACategory.m in Sources */,
+				10738730B1C3C0AAE9FCB7B2 /* OCMockRecorder+IFACategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
