@@ -22,13 +22,13 @@
 
 @interface OCMockRecorder (IFACategory)
 
-- (id)andReturnUnsignedInteger:(NSUInteger)a_value;
+- (id)IFA_andReturnUnsignedInteger:(NSUInteger)a_value;
 
-- (id)andReturnInteger:(NSInteger)a_value;
+- (id)IFA_andReturnInteger:(NSInteger)a_value;
 
-- (id)andReturnFloat:(CGFloat)a_value;
+- (id)IFA_andReturnFloat:(CGFloat)a_value;
 
-- (id)andReturnBool:(BOOL)a_value;
+- (id)IFA_andReturnBool:(BOOL)a_value;
 
-- (id) andReturnStruct:(void*)aValue objCType:(const char *)type;
+- (id)IFA_andReturnStruct:(void *)aValue objCType:(const char *)type;
 @end
