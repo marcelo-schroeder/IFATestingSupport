@@ -22,27 +22,27 @@
 
 #pragma mark - Public
 
-- (id)IFA_andReturnUnsignedInteger:(NSUInteger)a_value {
+- (id)ifa_andReturnUnsignedInteger:(NSUInteger)a_value {
     NSValue *l_value = [NSValue value:&a_value withObjCType:@encode(unsigned int)];
     return [self andReturnValue:l_value];
 }
 
-- (id)IFA_andReturnInteger:(NSInteger)a_value {
+- (id)ifa_andReturnInteger:(NSInteger)a_value {
     NSValue *l_value = [NSValue value:&a_value withObjCType:@encode(int)];
     return [self andReturnValue:l_value];
 }
 
-- (id)IFA_andReturnFloat:(CGFloat)a_value{
+- (id)ifa_andReturnFloat:(CGFloat)a_value{
     NSValue *l_value = [NSValue value:&a_value withObjCType:@encode(float)];
     return [self andReturnValue:l_value];
 }
 
-- (id)IFA_andReturnBool:(BOOL)a_value{
+- (id)ifa_andReturnBool:(BOOL)a_value{
     NSValue *l_value = [NSValue value:&a_value withObjCType:@encode(signed char)];
     return [self andReturnValue:l_value];
 }
 
-- (id)IFA_andReturnStruct:(void *)aValue objCType:(const char *)type{
+- (id)ifa_andReturnStruct:(void *)aValue objCType:(const char *)type{
     NSValue *l_value = [NSValue valueWithBytes:aValue
                                   objCType:type];
 
