@@ -17,6 +17,7 @@
 
 #import <XCTest/XCTest.h>
 #import "XCTestCase+IFACategory.h"
+#import "OCMockRecorder+IFACategory.h"
 
 /*************/
 /* 3rd party */
