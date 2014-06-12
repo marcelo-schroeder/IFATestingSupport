@@ -1,4 +1,4 @@
-# README #
+# IFATestingSupport #
 
 Utilities to make unit testing with OCHamcrest and OCMock easier.
 
