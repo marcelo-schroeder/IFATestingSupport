@@ -6,6 +6,6 @@ This library has been used in a few projects for my clients.
 
 Repository documentation and sample code are coming soon.
 
-## How to install GustyLib ##
+## How to install IFATestingSupport ##
 
-GustyLib can be installed via Cocoapods.
+IFATestingSupport can be installed via Cocoapods.
