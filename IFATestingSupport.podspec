@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
     s.frameworks    = 'XCTest', 'CoreGraphics'
     s.requires_arc  = true
     s.dependency 'OCHamcrest'
-    s.dependency 'OCMock'
+    s.dependency 'OCMock', '2.2.4'
 end
