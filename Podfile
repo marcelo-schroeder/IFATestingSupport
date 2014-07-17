@@ -4,4 +4,4 @@ xcodeproj 'IFATestingSupport/IFATestingSupport.xcodeproj'
 link_with 'IFATestingSupportTests'
 
 pod 'OCHamcrest'
-pod 'OCMock'
+pod 'OCMock', '2.2.4'
