@@ -23,17 +23,17 @@
 #pragma mark - Public
 
 - (id)ifa_andReturnUnsignedInteger:(NSUInteger)a_value {
-    NSValue *l_value = [NSValue value:&a_value withObjCType:@encode(unsigned int)];
+    NSValue *l_value = [NSValue value:&a_value withObjCType:@encode(unsigned long)];
     return [self andReturnValue:l_value];
 }
 
 - (id)ifa_andReturnInteger:(NSInteger)a_value {
-    NSValue *l_value = [NSValue value:&a_value withObjCType:@encode(int)];
+    NSValue *l_value = [NSValue value:&a_value withObjCType:@encode(long)];
     return [self andReturnValue:l_value];
 }
 
 - (id)ifa_andReturnFloat:(CGFloat)a_value{
-    NSValue *l_value = [NSValue value:&a_value withObjCType:@encode(float)];
+    NSValue *l_value = [NSValue value:&a_value withObjCType:@encode(double)];
     return [self andReturnValue:l_value];
 }
 
