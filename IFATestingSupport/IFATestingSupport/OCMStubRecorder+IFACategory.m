@@ -18,7 +18,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import "OCMockRecorder.h"
 
-@implementation OCMockRecorder (IFACategory)
+@implementation OCMStubRecorder (IFACategory)
 
 #pragma mark - Public
 

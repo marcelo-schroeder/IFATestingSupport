@@ -20,7 +20,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import "OCMockRecorder.h"
 
-@interface OCMockRecorder (IFACategory)
+@interface OCMStubRecorder (IFACategory)
 
 - (id)ifa_andReturnUnsignedInteger:(NSUInteger)a_value;
 
