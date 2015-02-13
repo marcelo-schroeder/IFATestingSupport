@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.license       = 'Apache-2.0'
     s.author        = { 'Marcelo Schroeder' => 'marcelo.schroeder@infoaccent.com' }
     s.platform      = :ios, '8.0'
-    s.source        = { :git => 'https://github.com/marcelo-schroeder/IFATestingSupport.git', :tag => '1.0.0' }
+    s.source        = { :git => 'https://github.com/marcelo-schroeder/IFATestingSupport.git', :tag => 'v1.0.0' }
     s.source_files  = 'IFATestingSupport/**/*.{h,m}'
     s.frameworks    = 'XCTest', 'CoreGraphics'
     s.requires_arc  = true
