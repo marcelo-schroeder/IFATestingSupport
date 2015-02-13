@@ -17,7 +17,7 @@
 
 #import <XCTest/XCTest.h>
 #import "XCTestCase+IFACategory.h"
-#import "OCMockRecorder+IFACategory.h"
+#import "OCMStubRecorder+IFACategory.h"
 
 /*************/
 /* 3rd party */
@@ -28,8 +28,9 @@
 #import <OCHamcrest/OCHamcrest.h>
 
 // OCMock
+#import "OCMock.h"
 #import "OCMockObject.h"
-#import "OCMockRecorder.h"
+#import "OCMStubRecorder.h"
 #import "OCMConstraint.h"
 #import "OCMArg.h"
 #import "NSNotificationCenter+OCMAdditions.h"

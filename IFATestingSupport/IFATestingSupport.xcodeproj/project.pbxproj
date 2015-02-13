@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10738730B1C3C0AAE9FCB7B2 /* OCMockRecorder+IFACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 107380C518C9589C14D9F1DF /* OCMockRecorder+IFACategory.m */; };
+		10738730B1C3C0AAE9FCB7B2 /* OCMStubRecorder+IFACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 107380C518C9589C14D9F1DF /* OCMStubRecorder+IFACategory.m */; };
 		19870D3115014CFBB6A61E78 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9DCA2628B64CBA9C30ADB4 /* libPods.a */; };
 		F791AC1518FDD42500957B6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F791AC1418FDD42500957B6F /* Foundation.framework */; };
 		F791AC2318FDD42500957B6F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F791AC2218FDD42500957B6F /* XCTest.framework */; };
@@ -44,10 +44,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		06D0EF6AD79D45988144C5CD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		107380C518C9589C14D9F1DF /* OCMockRecorder+IFACategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMockRecorder+IFACategory.m"; sourceTree = "<group>"; };
+		107380C518C9589C14D9F1DF /* OCMStubRecorder+IFACategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMStubRecorder+IFACategory.m"; sourceTree = "<group>"; };
 		10738D1892D6D101BC8C8FB9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		10738E79599442E5FDD84583 /* OCMockRecorder+IFACategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMockRecorder+IFACategory.h"; sourceTree = "<group>"; };
+		10738E79599442E5FDD84583 /* OCMStubRecorder+IFACategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMStubRecorder+IFACategory.h"; sourceTree = "<group>"; };
+		39E3555B936BFFA77BF6A829 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A8F4D5FE4F6BD73D4CE7A02A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		BA9DCA2628B64CBA9C30ADB4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7446BD019085E38008345FA /* IFATestingSupport.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = IFATestingSupport.podspec; path = ../IFATestingSupport.podspec; sourceTree = "<group>"; };
 		F791AC1118FDD42500957B6F /* libIFATestingSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIFATestingSupport.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60B05BFE182F29B572CF9CAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8F4D5FE4F6BD73D4CE7A02A /* Pods.debug.xcconfig */,
+				39E3555B936BFFA77BF6A829 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F791AC0818FDD42500957B6F = {
 			isa = PBXGroup;
 			children = (
@@ -100,8 +110,8 @@
 				F791AC1318FDD42500957B6F /* Frameworks */,
 				F791AC1218FDD42500957B6F /* Products */,
 				F7446BD019085E38008345FA /* IFATestingSupport.podspec */,
-				06D0EF6AD79D45988144C5CD /* Pods.xcconfig */,
 				10738D1892D6D101BC8C8FB9 /* LICENSE */,
+				60B05BFE182F29B572CF9CAA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -167,8 +177,8 @@
 				F791AC3A18FDDD3E00957B6F /* IFACommonTests.h */,
 				F791AC3B18FDDD3E00957B6F /* XCTestCase+IFACategory.h */,
 				F791AC3C18FDDD3E00957B6F /* XCTestCase+IFACategory.m */,
-				107380C518C9589C14D9F1DF /* OCMockRecorder+IFACategory.m */,
-				10738E79599442E5FDD84583 /* OCMockRecorder+IFACategory.h */,
+				107380C518C9589C14D9F1DF /* OCMStubRecorder+IFACategory.m */,
+				10738E79599442E5FDD84583 /* OCMStubRecorder+IFACategory.h */,
 			);
 			name = classes;
 			sourceTree = "<group>";
@@ -265,7 +275,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		94BB5BCA267E4B3CADE793A8 /* Check Pods Manifest.lock */ = {
@@ -291,7 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F791AC3D18FDDD3E00957B6F /* XCTestCase+IFACategory.m in Sources */,
-				10738730B1C3C0AAE9FCB7B2 /* OCMockRecorder+IFACategory.m in Sources */,
+				10738730B1C3C0AAE9FCB7B2 /* OCMStubRecorder+IFACategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +404,7 @@
 		};
 		F791AC3518FDD42500957B6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06D0EF6AD79D45988144C5CD /* Pods.xcconfig */;
+			baseConfigurationReference = A8F4D5FE4F6BD73D4CE7A02A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/IFATestingSupport.dst;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -412,7 +422,7 @@
 		};
 		F791AC3618FDD42500957B6F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06D0EF6AD79D45988144C5CD /* Pods.xcconfig */;
+			baseConfigurationReference = 39E3555B936BFFA77BF6A829 /* Pods.release.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/IFATestingSupport.dst;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -430,7 +440,7 @@
 		};
 		F791AC3818FDD42500957B6F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06D0EF6AD79D45988144C5CD /* Pods.xcconfig */;
+			baseConfigurationReference = A8F4D5FE4F6BD73D4CE7A02A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -451,7 +461,7 @@
 		};
 		F791AC3918FDD42500957B6F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06D0EF6AD79D45988144C5CD /* Pods.xcconfig */;
+			baseConfigurationReference = 39E3555B936BFFA77BF6A829 /* Pods.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

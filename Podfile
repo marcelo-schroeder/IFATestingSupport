@@ -3,5 +3,5 @@ workspace 'IFATestingSupport'
 xcodeproj 'IFATestingSupport/IFATestingSupport.xcodeproj'
 link_with 'IFATestingSupportTests'
 
-pod 'OCHamcrest'
-pod 'OCMock', '2.2.4'
+pod 'OCHamcrest', '~> 4'
+pod 'OCMock', '~> 3'
