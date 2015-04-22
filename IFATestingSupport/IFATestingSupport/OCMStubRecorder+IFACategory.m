@@ -16,7 +16,7 @@
 //
 
 #import <CoreGraphics/CoreGraphics.h>
-#import "OCMStubRecorder.h"
+#import <OCMock/OCMStubRecorder.h>
 
 @implementation OCMStubRecorder (IFACategory)
 

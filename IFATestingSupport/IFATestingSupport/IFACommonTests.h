@@ -28,9 +28,9 @@
 #import <OCHamcrest/OCHamcrest.h>
 
 // OCMock
-#import "OCMock.h"
-#import "OCMockObject.h"
-#import "OCMStubRecorder.h"
-#import "OCMConstraint.h"
-#import "OCMArg.h"
-#import "NSNotificationCenter+OCMAdditions.h"
+#import <OCMock/OCMock.h>
+#import <OCMock/OCMockObject.h>
+#import <OCMock/OCMStubRecorder.h>
+#import <OCMock/OCMConstraint.h>
+#import <OCMock/OCMArg.h>
+#import <OCMock/NSNotificationCenter+OCMAdditions.h>
