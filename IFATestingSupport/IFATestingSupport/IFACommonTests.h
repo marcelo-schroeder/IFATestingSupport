@@ -24,7 +24,6 @@
 /*************/
 
 // OCHamcrest
-#define HC_SHORTHAND
 #import <OCHamcrest/OCHamcrest.h>
 
 // OCMock
