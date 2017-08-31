@@ -1,7 +1,15 @@
-platform :ios, '8.0'
+platform :ios, '10.0'
 workspace 'IFATestingSupport'
-xcodeproj 'IFATestingSupport/IFATestingSupport.xcodeproj'
-link_with 'IFATestingSupportTests'
+project 'IFATestingSupport/IFATestingSupport.xcodeproj'
+use_frameworks!
 
-pod 'OCHamcrest', '~> 4'
-pod 'OCMock', '~> 3'
+target :'IFATestingSupport' do
+
+    pod 'OCHamcrest', '~> 7'
+    pod 'OCMock', '~> 3'
+
+    target :'IFATestingSupportTests' do
+
+    end
+
+end
