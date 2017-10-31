@@ -356,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A465E3C19042EBEF4CA895E9 /* Pods-IFATestingSupport.debug.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -383,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B59D79E520B1415079DAAF32 /* Pods-IFATestingSupport.release.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
