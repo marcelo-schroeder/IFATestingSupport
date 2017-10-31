@@ -1,5 +1,5 @@
 PODS:
-  - OCHamcrest (7.0.1)
+  - OCHamcrest (7.0.2)
   - OCMock (3.4)
 
 DEPENDENCIES:
@@ -7,7 +7,7 @@ DEPENDENCIES:
   - OCMock (~> 3)
 
 SPEC CHECKSUMS:
-  OCHamcrest: 7c2229e7ea96eecd6e43dbef7c68e1dfbd6928b8
+  OCHamcrest: 706bfbf69a3df55a873bad096014e80e2e8ca93c
   OCMock: 35ae71d6a8fcc1b59434d561d1520b9dd4f15765
 
 PODFILE CHECKSUM: d502feeafb41b1145d1599b0d39ab2b06543e466
