@@ -34,6 +34,7 @@
 		F7ADBFA41FA90E0900C6B2BD /* ReleaseNotes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = ReleaseNotes.txt; path = ../ReleaseNotes.txt; sourceTree = "<group>"; };
 		F7ADBFA51FA90F2900C6B2BD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F7AEE25A1FA918F30005FCE9 /* IFATestingSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFATestingSupport.h; sourceTree = "<group>"; };
+		F7AEE25C1FA919B60005FCE9 /* IFATestingSupport.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = IFATestingSupport.podspec; path = ../IFATestingSupport.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 		F7ADBF7C1FA90C1900C6B2BD = {
 			isa = PBXGroup;
 			children = (
+				F7AEE25C1FA919B60005FCE9 /* IFATestingSupport.podspec */,
 				F7ADBFA41FA90E0900C6B2BD /* ReleaseNotes.txt */,
 				F7ADBF9B1FA90DF400C6B2BD /* fastlane */,
 				F7ADBF881FA90C1900C6B2BD /* IFATestingSupport */,
