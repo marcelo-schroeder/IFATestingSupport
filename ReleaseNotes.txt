@@ -1,0 +1,2 @@
+[CHANGE] Lowest iOS version supported is now 10.
+[CHANGE] iOS 11 compatibility changes.

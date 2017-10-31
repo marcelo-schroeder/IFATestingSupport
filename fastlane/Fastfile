@@ -1,0 +1,23 @@
+skip_docs
+
+import_from_git(url: 'https://github.com/marcelo-schroeder/IFAFastfile.git')
+
+platform :ios do
+
+    desc "Release new version of open source framework"
+    desc "Required parameter: bitriseAppSlug"
+    desc "Required parameter: bitriseApiToken"
+    desc "Optional parameter: versionNumber (if not provided, patch version number is incremented by 1)"
+    lane :bitriseGitHubRelease do |options|
+        mergeGitBranch(
+            sourceBranch: 'development',
+            targetBranch: 'release'
+        )
+        sh "git checkout development"
+        bitriseAppSlug = options[:bitriseAppSlug]
+        bitriseApiToken = options[:bitriseApiToken]
+        versionNumber = options[:versionNumber]
+        sh 'curl https://www.bitrise.io/app/'"#{bitriseAppSlug}"'/build/start.json --data \'{"hook_info":{"type":"bitrise","api_token":"'"#{bitriseApiToken}"'"},"build_params":{"branch":"release","workflow_id":"GitHubRelease","environments":[{"mapped_to":"VERSION_NUMBER","value":"'"#{versionNumber}"'","is_expand":true}]}}\''
+    end
+
+end
