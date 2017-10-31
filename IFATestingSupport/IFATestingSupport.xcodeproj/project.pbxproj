@@ -13,6 +13,7 @@
 		F7ADBF981FA90DA400C6B2BD /* IFACommonTests.h in Headers */ = {isa = PBXBuildFile; fileRef = F7ADBF931FA90DA400C6B2BD /* IFACommonTests.h */; };
 		F7ADBF991FA90DA400C6B2BD /* OCMStubRecorder+IFACategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F7ADBF941FA90DA400C6B2BD /* OCMStubRecorder+IFACategory.h */; };
 		F7ADBF9A1FA90DA400C6B2BD /* XCTestCase+IFACategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F7ADBF951FA90DA400C6B2BD /* XCTestCase+IFACategory.h */; };
+		F7AEE25B1FA918F30005FCE9 /* IFATestingSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = F7AEE25A1FA918F30005FCE9 /* IFATestingSupport.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F7ADBFA21FA90DF400C6B2BD /* .env.release */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env.release; sourceTree = "<group>"; };
 		F7ADBFA41FA90E0900C6B2BD /* ReleaseNotes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = ReleaseNotes.txt; path = ../ReleaseNotes.txt; sourceTree = "<group>"; };
 		F7ADBFA51FA90F2900C6B2BD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F7AEE25A1FA918F30005FCE9 /* IFATestingSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFATestingSupport.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		F7ADBF881FA90C1900C6B2BD /* IFATestingSupport */ = {
 			isa = PBXGroup;
 			children = (
+				F7AEE25A1FA918F30005FCE9 /* IFATestingSupport.h */,
 				F7ADBF931FA90DA400C6B2BD /* IFACommonTests.h */,
 				F7ADBF941FA90DA400C6B2BD /* OCMStubRecorder+IFACategory.h */,
 				F7ADBF921FA90DA400C6B2BD /* OCMStubRecorder+IFACategory.m */,
@@ -116,6 +119,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AEE25B1FA918F30005FCE9 /* IFATestingSupport.h in Headers */,
 				F7ADBF9A1FA90DA400C6B2BD /* XCTestCase+IFACategory.h in Headers */,
 				F7ADBF981FA90DA400C6B2BD /* IFACommonTests.h in Headers */,
 				F7ADBF991FA90DA400C6B2BD /* OCMStubRecorder+IFACategory.h in Headers */,
