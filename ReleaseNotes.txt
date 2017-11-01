@@ -1,1 +1,1 @@
-[CHANGE] Minor build change.
+[FIX] Fixed issue with the podspec.

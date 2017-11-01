@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.author        = { 'Marcelo Schroeder' => 'marcelo.schroeder@infoaccent.com' }
     s.platform      = :ios, '10.0'
     s.source        = { :git => 'https://github.com/marcelo-schroeder/IFATestingSupport.git', :tag => 'v' +  s.version.to_s }
-    s.source_files  = 'IFATestingSupport/**/*.{h,m}'
+    s.source_files  = 'IFATestingSupport/IFATestingSupport/**/*.{h,m,swift}'
     s.frameworks    = 'XCTest', 'CoreGraphics'
     s.requires_arc  = true
     s.xcconfig      = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'HC_SHORTHAND=1' }
