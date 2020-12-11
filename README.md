@@ -14,7 +14,7 @@ Repository documentation and sample code are coming soon.
 
 ## How to install IFATestingSupport ##
 
-IFATestingSupport can be installed via Cocoapods.
+IFATestingSupport can be installed via CocoaPods.
 
 ## Latest API Documentation ##
 
